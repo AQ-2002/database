@@ -1,0 +1,179 @@
+INSERT INTO supports_Request(request_id,user_id,description,status)
+VALUES 
+(25520,00212553,'The drive was expensive','closed');
+
+INSERT INTO supports_Request(request_id,user_id,description,status)
+VALUES 
+(25521,00212554,'The drive was late','closed');
+
+INSERT INTO supports_Request(request_id,user_id,description,status)
+VALUES 
+(25522,00212555,'The app is not working','ongoing');
+
+INSERT INTO supports_Request(request_id,user_id,description,status)
+VALUES 
+(25523,00212556,'The system is not good','ongoing');
+
+INSERT INTO supports_Request(request_id,user_id,description,status)
+VALUES 
+(25524,00212557,'The car was not good','ongoing');
+
+
+INSERT INTO promo(promo_id, code, discount)
+VALUES
+(20242268, 'AWQR67RT', 50.00);
+INSERT INTO promo(promo_id, code, discount)
+VALUES
+(20242681, 'QRTYF75B', 59.50);
+INSERT INTO promo(promo_id, code, discount)
+VALUES
+(20244468, 'SST7YU2N', 75.50);
+INSERT INTO promo(promo_id, code, discount)
+VALUES
+(20247165, 'C6RT7EWX', 20.00);
+INSERT INTO promo(promo_id, code, discount)
+VALUES
+(20249298, 'M78OP6RT', 25.50);
+
+
+INSERT INTO passenger(user_id,name,rating,status)
+VALUES 
+(72489965,'fatima',6.00);
+
+INSERT INTO passenger(user_id,name,rating,status)
+VALUES 
+(91584734,'mohammed',6.00);
+
+INSERT INTO passenger(user_id,name,rating,status)
+VALUES 
+(63879452,'zainab',6.00);
+
+INSERT INTO passenger(user_id,name,rating,status)
+VALUES 
+(70885520,'hassan',6.00);
+
+INSERT INTO passenger(user_id,name,rating,status)
+VALUES 
+(82000887,'maryam',5.50);
+
+
+INSERT INTO driver (driver_id,name,license_number,insurance_details)
+VALUES 
+(66808467,'ali','AQEFG556B','');
+INSERT INTO driver (driver_id,name,license_number,insurance_details)
+VALUES 
+(96774021,'hussain','XCVERT774','');
+INSERT INTO driver (driver_id,name,license_number,insurance_details)
+VALUES 
+(88004621,'mohammed','ZASD11NYJ','');
+INSERT INTO driver (driver_id,name,license_number,insurance_details)
+VALUES 
+(97058873,'yusuf','VCXNH77L5','');
+INSERT INTO driver (driver_id,name,license_number,insurance_details)
+VALUES 
+(80071217,'ahmed','BBYJD745K','');
+
+
+INSERT INTO driver (s_request_id,user_id,details,)
+VALUES 
+(22967445,70789541,'');
+INSERT INTO driver (s_request_id,user_id,details,)
+VALUES 
+(21235497,88962147,'');
+INSERT INTO driver (s_request_id,user_id,details,)
+VALUES 
+(33125479,22564473,'');
+INSERT INTO driver (s_request_id,user_id,details,)
+VALUES 
+(11478536,11205587,'');
+INSERT INTO driver (s_request_id,user_id,details,)
+VALUES 
+(22035877,52005479,'');
+
+
+INSERT INTO vehicle (vehicle_id,type,availability,)
+VALUES 
+(665851,'van','available');
+INSERT INTO vehicle (vehicle_id,type,availability,)
+VALUES 
+(665862,'sedan','available');
+INSERT INTO vehicle (vehicle_id,type,availability,)
+VALUES 
+(666843,'sedan','not available');
+INSERT INTO vehicle (vehicle_id,type,availability,)
+VALUES 
+(678431,'coupe','not available');
+INSERT INTO vehicle (vehicle_id,type,availability,)
+VALUES 
+(684524,'coupe','available');
+
+
+INSERT INTO ride (ride_id,start_location,end_location,fare,num_of_ride)
+VALUES 
+(77099234,'a'ali','salmabad',2.8,70);
+INSERT INTO ride (ride_id,start_location,end_location,fare,num_of_ride)
+VALUES 
+(65080912,'muharreq','muharreq',1.5,60);
+INSERT INTO ride (ride_id,start_location,end_location,fare,num_of_ride)
+VALUES 
+(98070432,'manama','muharreq',2.0,55);
+INSERT INTO ride (ride_id,start_location,end_location,fare,num_of_ride)
+VALUES 
+(83040567,'sitra','saar',4.1,20);
+INSERT INTO ride (ride_id,start_location,end_location,fare,num_of_ride)
+VALUES 
+(05080421,'saar','muharreq',3.0,12);
+
+
+INSERT INTO feedback  (feedback_id,rating,comments)
+VALUES 
+(12398752,7.00,'Good service');
+INSERT INTO feedback  (feedback_id,rating,comments)
+VALUES 
+(32178943,9.00,'Response time');
+INSERT INTO feedback  (feedback_id,rating,comments)
+VALUES 
+(36974168,5.50,'The driver is polite');
+INSERT INTO feedback  (feedback_id,rating,comments)
+VALUES 
+(29731645,6.75,'Respectful dealing');
+INSERT INTO feedback  (feedback_id,rating,comments)
+VALUES 
+(20587413,7.25,'Less problem');
+
+INSERT INTO vehicle_maintenance (details,dates)
+VALUES 
+('accidant','2023-07-07');
+INSERT INTO vehicle_maintenance (details,dates)
+VALUES 
+('service for vehicle','2024-05-05');
+INSERT INTO vehicle_maintenance (details,dates)
+VALUES 
+('change decoration','2024-04-02');
+INSERT INTO vehicle_maintenance (details,dates)
+VALUES 
+('change the damages','2024-03-02');
+INSERT INTO vehicle_maintenance (details,dates)
+VALUES 
+('Mechanical problems','2024-02-02');
+
+
+INSERT INTO payment (payment_id,amount,payment_date)
+VALUES 
+(,,'');
+
+INSERT INTO payment (payment_id,amount,payment_date)
+VALUES 
+(,,'');
+
+INSERT INTO payment (payment_id,amount,payment_date)
+VALUES 
+(,,'');
+
+INSERT INTO payment (payment_id,amount,payment_date)
+VALUES 
+(,,'');
+
+INSERT INTO payment (payment_id,amount,payment_date)
+VALUES 
+(,,'');
